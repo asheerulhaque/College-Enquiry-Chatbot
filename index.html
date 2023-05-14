@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>COLLEGE ENQUIRY CHATBOT</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Chatbot</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about">Notices</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">Location</a></li>
+             <button class="btn btn-danger" onclick="logout()" style="position: relative; margin-left: 4%;"> Logout</button>
+            </ul>
+        </nav>
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">College Enquiry Chatbot</h1>
+                <h3 class="mb-5"><em>A quick way to get your queries answered</em></h3>
+                <button class="btn btn-danger" onclick="openChat()">Click me to ask your queries</button>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>Notices</h2>
+                        <div style="display: flex; border: 1px solid black;">
+                            <table style="flex: 1 ;">
+                              <tr>
+                                <th >Notice</th>
+                              </tr>
+                              <tr>
+                                <td><a href="https://forms.gle/kChsasRMqdo8o1eb7">Grassroots-The Western Music Society, RLAC invites you to join The DU WMS Showcase</a></td>
+                              </tr>
+                              <tr>
+                                <td><a href="https://forms.gle/3aKTbioHT63WYUgM8">Click here to apply (Last date to fill Laptop Request Application Form is 3rd October 2021 before 4:00 PM)</a></td>
+                              </tr>
+                              <tr>
+                                <td><a href="https://rlacollege.edu.in/uploads/pdf/1632127855_Paryavaran_Nipunta.pdf">NSS unit of our college is organizing a webinar on Manage Your Waste</a></td>
+                              </tr>
+                              <tr>
+                                <td><a href="https://rlacollege.edu.in/uploads/pdf/1631848310_Notification_regarding_second_phase_eamination_fo_UG_courses.pdf">Notice: All concerned students of Under Graduate Course for Semester VI second phase examination scheduled to be held from 20th September 2021</a></td>
+                              </tr>
+                              <tr>
+                                <td><a href="https://rlacollege.edu.in/uploads/pdf/1631704832_NOTICE-_Info_regarding_casuality_of_the_parent_due_to_COVID.pdf">Information required regarding the casualty/death of the parent/s due to COVID for the purpose of fee review/waiver</a></td>
+                              </tr>
+                              <tr>
+                                <td><a href="https://rlacollege.edu.in/uploads/pdf/1631255006_Academic_Conversation_on_NEP_&_DU_06-09-2021.pdf">Academic Conversation on NEP & DU</a></td>
+                              </tr>
+                            </table>
+                            <div style="width: 1px; background-color: black;"></div>
+                            <table style="flex: 1;">
+                              <tr>
+                                <th>Description</th>
+                              </tr>
+                              <tr>
+                                <td>Invitation to join the DU WMS Showcase event hosted by Grassroots-The Western Music Society</td>
+                              </tr>
+                              <tr>
+                                <td>Notice about the deadline to apply for laptop request application form</td>
+                              </tr>
+                              <tr>
+                                <td>Information about a webinar on waste management organized by the NSS unit of the college</td>
+                              </tr>
+                              <tr>
+                                <td>Notice about the second phase examination for Under Graduate Course students</td>
+                              </tr>
+                              <tr>
+                                <td>Notice regarding information required about parents who passed away due to COVID for the purpose of fee review/waiver</td>
+                              </tr>
+                              <tr>
+                                <td>Announcement about an academic conversation on NEP and DU</td>
+                              </tr>
+                            </table>
+                          </div>
+                          
+                          
+                            <script type="text/javascript">
+                                function openChat() {
+                                    Kommunicate.displayKommunicateWidget(true); 
+                                    Kommunicate.launchConversation();
+                                }
+                                </script>
+                                
+                                <script type="text/javascript">
+                                    (function(d, m){
+                                        var kommunicateSettings = 
+                                            {"appId":"d775f04160f26d3777a8545327010a28","popupWidget":true,"automaticChatOpenOnNavigation":true};
+                                        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+                                        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+                                        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+                                        window.kommunicate = m; m._globals = kommunicateSettings;
+                                    })(document, window.kommunicate || {});
+                                /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+                                </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- Map-->
+        <div class="map" id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28030.065805203205!2d77.162025!3d28.577022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb60c49d133cb8752!2sRam%20Lal%20Anand%20College%2C%20University%20of%20Delhi!5e0!3m2!1sen!2sin!4v1650297299522!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br />
+            <small><a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28030.065805203205!2d77.162025!3d28.577022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb60c49d133cb8752!2sRam%20Lal%20Anand%20College%2C%20University%20of%20Delhi!5e0!3m2!1sen!2sin!4v1650297299522!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></a></small>
+        </div>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <p class="text-muted small mb-0">Copyright &copy; Rlabot 2021-2022 All rights reserved</p>
+                <p class="text-muted small mb-0">Made by Asheerul Haque (4088)</p>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+    <script src="firebase.js"></script>
+    <script src="logout.js"></script>
+    </body>
+</html>
