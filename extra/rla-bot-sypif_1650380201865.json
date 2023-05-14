@@ -1,0 +1,856 @@
+{
+	"intents": [
+		{
+			"content": [
+				{
+					"message": "Ram Lal Anand College is located in New Delhi, India. It has been one of the University of Delhi's maintained colleges of since 1973. It awards degrees under the purview of the university and offers courses at the undergraduate level. The college is situated in the South Campus of University of Delhi."
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1647688783497-image15.png"
+							}
+						]
+					}
+				},
+				{
+					"message": "Click the link to visit the official website of the college.\nhttps://rlacollege.edu.in/"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "About College",
+			"trainingPhrases": [
+				"About College",
+				"Rla",
+				"What is the college name"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "COURSES OF STUDY OFFERED AT\nRLA COLLEGE."
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "SCIENCE COURSES",
+								"action": {
+									"type": "quickReply",
+									"message": "SCIENCE COURSES"
+								}
+							},
+							{
+								"name": "COMMERCE COURSES",
+								"action": {
+									"type": "quickReply",
+									"message": "COMMERCE COURSES"
+								}
+							},
+							{
+								"name": "HUMANITIES COURSES",
+								"action": {
+									"type": "quickReply",
+									"message": "HUMANITIES COURSES"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Enquiry about Courses",
+			"trainingPhrases": [
+				"Enquiry about Courses",
+				"Courses",
+				"Course",
+				"courses",
+				"course"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Computer Science",
+								"action": {
+									"type": "quickReply",
+									"message": "Computer Science"
+								}
+							},
+							{
+								"name": "Geology",
+								"action": {
+									"type": "quickReply",
+									"message": "Geology"
+								}
+							},
+							{
+								"name": "Microbiology",
+								"action": {
+									"type": "quickReply",
+									"message": "Microbiology"
+								}
+							},
+							{
+								"name": "Statistics",
+								"action": {
+									"type": "quickReply",
+									"message": "Statistics"
+								}
+							},
+							{
+								"name": "Mathematics",
+								"action": {
+									"type": "quickReply",
+									"message": "Mathematics"
+								}
+							},
+							{
+								"name": "Management Studies",
+								"action": {
+									"type": "quickReply",
+									"message": "Management Studies"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "SCIENCE",
+			"trainingPhrases": [
+				"SCIENCE COURSES"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "English",
+								"action": {
+									"type": "quickReply",
+									"message": "English"
+								}
+							},
+							{
+								"name": "Hindi",
+								"action": {
+									"type": "quickReply",
+									"message": "Hindi"
+								}
+							},
+							{
+								"name": " Patrakarita(BJMC) ",
+								"action": {
+									"type": "quickReply",
+									"message": " Patrakarita(BJMC) "
+								}
+							},
+							{
+								"name": "History",
+								"action": {
+									"type": "quickReply",
+									"message": "History"
+								}
+							},
+							{
+								"name": "Political Science",
+								"action": {
+									"type": "quickReply",
+									"message": "Political Science"
+								}
+							},
+							{
+								"name": " B.A Programme",
+								"action": {
+									"type": "quickReply",
+									"message": " B.A Programme"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "HUMANITIES",
+			"trainingPhrases": [
+				"HUMANITIES COURSES"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": " B.Com Programme",
+								"action": {
+									"type": "quickReply",
+									"message": " B.Com Programme"
+								}
+							},
+							{
+								"name": "B.Com (Honours)",
+								"action": {
+									"type": "quickReply",
+									"message": "B.Com (Honours)"
+								}
+							},
+							{
+								"name": "Economics",
+								"action": {
+									"type": "quickReply",
+									"message": "Economics"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "COMMERCE",
+			"trainingPhrases": [
+				"COMMERCE COURSES"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Teacher Incharge 2021-22\n - Dr. Vandana Gandotra\nSociety Incharge 2021-22\n - Ms. Shikha Verma"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Faculty_cs",
+								"action": {
+									"type": "quickReply",
+									"message": "Faculty_cs"
+								}
+							},
+							{
+								"name": "Timetable_cs",
+								"action": {
+									"type": "quickReply",
+									"message": "Timetable_cs"
+								}
+							},
+							{
+								"name": "E-resource_cs",
+								"action": {
+									"type": "quickReply",
+									"message": "E-resource_cs"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Computer science",
+			"trainingPhrases": [
+				"bsc cs",
+				"comp sc",
+				"comp sci",
+				"cs",
+				"Computer Science"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Dr. Vandana Gandotra (Teacher Incharge)\nPhD, MCA\nMobile : 9818288842\nE-mail : vandanarla@yahoo.co.in",
+								"url": "https://rlacollege.edu.in/images/profile-pic/computer%20sc/VANDANA_PIC.PNG"
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Dr. Neeraj Kumar Sharma\nPhD, MCA\nMobile : 9811638906\nE-mail : neerajraj100@gmail.com",
+								"url": "https://rlacollege.edu.in/images/profile-pic/computer%20sc/neeraj-kumar.jpg"
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Ms. Sakshi Taaresh Khanna\nMCA\nMobile : 9953245840\nE-mail : sakshisahni.du@gmail.com",
+								"url": "https://rlacollege.edu.in/images/profile-pic/computer%20sc/sakshi_pic.PNG"
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Ms. Shikha Verma\nMCA\nMobile :\nE-mail : shikhaverma@rla.du.ac.in",
+								"url": "https://rlacollege.edu.in/pdf-profile/computer-sc/shikha_pic.jpg"
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Mr. Arun Kumar Gautam\nMTech\nMobile :\nE-mail : arunkgautam@rla.du.ac.in",
+								"url": "https://rlacollege.edu.in/pdf-profile/computer-sc/arun_pic.jpg"
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Ms. Nupur Tyagi\nMCA\nMobile :\nE-mail : nupurtyagi@rla.du.ac.in",
+								"url": "https://rlacollege.edu.in/images/profile-pic/computer%20sc/nupur_pic.PNG"
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Ms. Manisha Wadhwa\nMSc\nMobile : 9582332066\nE-mail : manishawadhwaarora@rla.du.ac.in",
+								"url": "https://rlacollege.edu.in/images/profile-pic/computer%20sc/Manisha-Wadhwa.jpg"
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Ms. Dikscha Sapra\nMTech\nMobile : 9899958820\nE-mail : dikscha.cs@du.ac.in",
+								"url": "https://rlacollege.edu.in/images/profile-pic/computer%20sc/Dikscha-Sapra.jpg"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Faculty_cs",
+			"trainingPhrases": [
+				"Faculty_cs"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Sem IV & VI Jan 2022",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/pdf2021/time-table/Computer%20Science.pdf"
+								}
+							},
+							{
+								"name": "Sem-I 21-2022",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/pdf2021/time-table/CS_SEM%20I.pdf"
+								}
+							},
+							{
+								"name": "Sem V 21-2022",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/pdf2021/time-table/Computer%20Science%20Sem-V.pdf"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Timetable_cs",
+			"trainingPhrases": [
+				"Timetable_cs"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Question_bank",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/computer-question-bank.php"
+								}
+							},
+							{
+								"name": "Presentation",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/computer-presentations.php"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Eresources_cs",
+			"trainingPhrases": [
+				"E-resource_cs"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Register at https://slc.uod.ac.in/index.php/site/login\nand fill the examination form."
+				},
+				{
+					"message": "For more details read the following pdf.\nhttps://rlacollege.edu.in/uploads/pdf/1649847640_notification_2.jpeg"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Exam form",
+			"trainingPhrases": [
+				"form exam",
+				"Examination form",
+				"Exam form"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Computer Science",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/Computer-Sci-Question-papers.php"
+								}
+							},
+							{
+								"name": "Commerce",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/Commerce-Question-papers.php"
+								}
+							},
+							{
+								"name": "Economics",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/Economics-Question-papers.php"
+								}
+							},
+							{
+								"name": "Mathematics",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/Mathematics-Question-papers.php"
+								}
+							},
+							{
+								"name": "History",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/History-Question-papers.php"
+								}
+							},
+							{
+								"name": "English",
+								"action": {
+									"type": "link",
+									"url": "https://rlacollege.edu.in/English-Question-papers.php"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "PVP",
+			"trainingPhrases": [
+				"Previous year paper"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Check list of declared results at https://durslt.du.ac.in/AC_INTERNET_INDEX/Students/List_Of_Declared_Results_V2.aspx"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Result",
+			"trainingPhrases": [
+				"Result",
+				"resullt"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Tentative date sheet",
+								"action": {
+									"type": "link",
+									"url": "https://exam.du.ac.in/pdf/22022022/BA(H)%202022-SEM.-II-IV%20-VI%20(CBCS)%202019-2020-07-04-2022.pdf"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Date sheet",
+			"trainingPhrases": [
+				"datesheet",
+				"tentative date sheet",
+				"Date sheet"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Please select what you want to know about ?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Exam form",
+								"action": {
+									"type": "quickReply",
+									"message": "Exam form"
+								}
+							},
+							{
+								"name": "Previous year paper",
+								"action": {
+									"type": "quickReply",
+									"message": "Previous year paper"
+								}
+							},
+							{
+								"name": "Result",
+								"action": {
+									"type": "quickReply",
+									"message": "Result"
+								}
+							},
+							{
+								"name": "Date sheet",
+								"action": {
+									"type": "quickReply",
+									"message": "Date sheet"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Enquiry about exams",
+			"trainingPhrases": [
+				"exam form",
+				"examinaton",
+				"exams",
+				"Enquiry about Exams"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Admission 2021-2022\nhttps://rlacollege.edu.in/admissions.php#Disaster1"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "admission fees",
+			"trainingPhrases": [
+				"admission fees",
+				"admission process",
+				"Enquiry about Admissions"
+			]
+		},
+		{
+			"content": [
+				{
+					"platform": "kommunicate",
+					"metadata": {
+						"KM_ASSIGN_TO": "asheerulwork.cs@gmail.com"
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Other(yes)",
+			"trainingPhrases": [
+				"let me talk to a human",
+				"I want to chat with a human",
+				"Yes"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "okay, lets chat with me"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Other(no)",
+			"trainingPhrases": [
+				"bot say something",
+				"let me talk to bot",
+				"I want to talk to a bot",
+				"No"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Dept of Economics, RLAC is organizing a Quiz Competition on 21st April 2022.\nhttps://rlacollege.edu.in/uploads/pdf/1650106353_DEPARTMENT_OF_ECONOMICS_FINA.pdf"
+				},
+				{
+					"message": "Notification: Filling up examination form for Regular students of Sem IV/VI of all UG & PG courses alongwith the Essential Repeaters/Improvements and Ex-Students of Semester under CBCS & (LOCF) Scheme for the Academic Session 2021-22\nhttps://rlacollege.edu.in/uploads/pdf/1650041675_Last_date_extension_filling_of_exams_form_for_CBCS_and_CBCS_LOCF.pdf"
+				},
+				{
+					"message": "Invitation for quotations for purchase/ repair and installation\nhttps://rlacollege.edu.in/uploads/pdf/1649932451_Quotation_Invitation.pdf"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Notification",
+			"trainingPhrases": [
+				"notice",
+				"Notice",
+				"Latest Notification"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Want to chat with a human ?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Yes",
+								"action": {
+									"type": "quickReply",
+									"message": "Yes"
+								}
+							},
+							{
+								"name": "No",
+								"action": {
+									"type": "quickReply",
+									"message": "No"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Other",
+			"trainingPhrases": [
+				"Other - Chat with us",
+				"Other- Chat with us"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Hello, I am Rlabot."
+				},
+				{
+					"message": "How can I help you with?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "About College",
+								"action": {
+									"type": "quickReply",
+									"message": "About College"
+								}
+							},
+							{
+								"name": "Latest Notice",
+								"action": {
+									"type": "quickReply",
+									"message": "Latest Notice"
+								}
+							},
+							{
+								"name": "Enquiry about Courses",
+								"action": {
+									"type": "quickReply",
+									"message": "Enquiry about Courses"
+								}
+							},
+							{
+								"name": "Enquiry about Exams",
+								"action": {
+									"type": "quickReply",
+									"message": "Enquiry about Exams"
+								}
+							},
+							{
+								"name": "Enquiry about Admissions",
+								"action": {
+									"type": "quickReply",
+									"message": "Enquiry about Admissions"
+								}
+							},
+							{
+								"name": "Other- Chat with us",
+								"action": {
+									"type": "quickReply",
+									"message": "Other- Chat with us"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "welcome_event",
+			"name": "Default Welcome Intent",
+			"trainingPhrases": []
+		},
+		{
+			"content": [
+				{
+					"message": "Sorry, I didn't get what you said. Let me connect you with admin."
+				}
+			],
+			"urlPatternList": [],
+			"category": "fallback_intent",
+			"name": "Default Fallback Intent",
+			"trainingPhrases": []
+		}
+	]
+}
